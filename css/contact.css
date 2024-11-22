@@ -1,0 +1,80 @@
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.contact h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link img {
+    width: 80px;
+}
+
+.link a {
+    display: flex;
+    align-items: flex-end;
+}
+
+.link p {
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 6px 0;
+}
+
+.liuyan {
+    width: 40%;
+    margin: 20px auto;
+}
+
+.liuyan h4 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.form-group input {
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 240px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.form-group button {
+    margin: 10px 0;
+    width: 100%;
+    height: 35px;
+    background-color: #9d0039;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+}

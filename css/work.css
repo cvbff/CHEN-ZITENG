@@ -1,0 +1,34 @@
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.title h3 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container h4 {
+    padding: 10px 0;
+}
+
+.container .img-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .img-list li {
+    width: 30%;
+    cursor: pointer;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.container .img-list li img {
+    width: 100%;
+    height: 100%;
+}
